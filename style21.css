@@ -1,0 +1,42 @@
+*{ 
+    box-sizing: border-box;
+}
+#container{
+    border: 3px solid red;
+    width: 9o0px;
+    margin: 33px auto;
+    /* margin auto only tankes margin on left and right */
+    font-family: cursive;
+}
+.item{
+    border: 3px solid rgb(29, 247, 1);
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background-color: rgb(226, 228, 101);
+}
+
+/* .para{
+
+} */
+
+#fruit{
+    float: left;
+    width: 48%;
+}
+#Computer{
+    float: right;
+    width: 48%;
+}
+#Stationary{
+    clear: both;
+    width: 100%;
+}
+
+p,h3{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    width: 445px;
+    margin: 33px auto;
+}

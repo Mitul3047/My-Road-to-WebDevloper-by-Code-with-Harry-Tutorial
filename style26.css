@@ -1,0 +1,80 @@
+/* CSS RESET */
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(back.jpg);
+    color: white;
+    /* height: 4500px; */
+}
+
+.header{
+    border: 2px solid white;
+}
+.left{
+    position: absolute;
+    display: inline-block;
+    left: 34px;
+    top: 24px;
+    border: 2px solid red;
+    
+}
+
+.left img {
+    width: 86px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    font-size: 10px;
+}
+.mid{
+    width: 41%;
+    margin: 24px auto;
+    display: block;
+    border: 2px solid green;
+    text-align: center;
+    
+    
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 16px;
+    font-size: 18px;
+    font-family: cursive;
+    text-decoration: none;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+
+.right{
+    border: 2px solid yellow;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 24px;
+}
+
+.btn{
+    /* gap between two button */
+    margin: 28px 9px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid gray;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.btn:hover{
+    background-color: gray;
+}

@@ -1,0 +1,34 @@
+.container{
+    border: 2px solid red;
+    background-color: burlywood;
+    height: 3444px;
+}
+.box{
+    border: 2px solid orangered;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    display: inline-block;
+}
+/* #box3{
+    position: fixed;
+    right: 8px;
+    bottom: 4px; */
+
+    #box3{
+        position: sticky;
+        top: 8px;
+
+}
+/* position are four typer 
+1 static (default)
+2 relative
+3 absolute
+4 fixed
+5 sticky*/
+
+/* relative dile top right bottm left sob properties use kora jabe 
+relative dile same position athakbe*/
+
+/* 
+absolu dile main div er dile theke position count hobe */

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    border: 3px solid blue;
+    padding: 5px 4px;
+    background-color: rgb(221, 196, 245);
+    margin: 5px 4px;
+    width: 800px;
+}
+.item{
+    border: 3px solid red;
+    margin: 8px 8px ;
+    padding: 5px 5px;
+}
+#third{
+    float: left;
+    width: 48%;
+}
+#first{
+    float: rightt;
+    width: 48%;
+}
+#second{
+    clear: both;
+    width: 100%;
+}

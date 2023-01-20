@@ -1,0 +1,38 @@
+.navbar{
+    background-color: rgb(0, 0, 0);
+    border-radius: 45px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li {
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+    margin: 20px 60px ;
+}
+
+.navbar li a{
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navbar li a:hover{
+    color: orangered;
+}
+
+.search{
+    color: green;
+    float: right;
+    /* margin: 3px 3px; */
+    padding: 23px 84px;
+
+}
+ .navbar input{
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 3px 184px;
+    /* width: 125px; */
+ }
+/* .navbar li deayte background colour chole gese
+tai over flow add korte hobe .navbar ul er modhe   */

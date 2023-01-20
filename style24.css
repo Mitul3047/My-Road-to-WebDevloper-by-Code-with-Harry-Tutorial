@@ -1,0 +1,31 @@
+img{
+    display: block;
+    width: 36px;
+    margin: auto;
+}
+
+header{
+    margin: auto;
+    border: 2px solid red;
+    width: 15%;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+/* header block element tai margin auto dile margine kaj korbena tai age width dite hobe taile margin auto kaj korbe and img inline element tai margin auto kaj korbena tai age block element a convert korte hobe tahole center hobe  */
+.container{
+    margin: auto;
+    width:1200px;
+}
+.box{
+    border: 2px solid orangered;
+    margin: 6px;
+    padding: 23px;
+    background-color:gray;
+    display: inline-block;
+    width: 32%;
+    box-sizing: border-box;
+}

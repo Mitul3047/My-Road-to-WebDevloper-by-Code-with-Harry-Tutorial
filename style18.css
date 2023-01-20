@@ -1,0 +1,33 @@
+h3{
+    background-color: aqua;
+}
+.para1{
+    background-color: red;
+    height: 500px;
+    width: 400px;
+    border: 6px solid greenyellow;
+    border-radius: 10px;
+}
+
+.para2{
+    background-color: blueviolet;
+    height: 450px;
+    width: 400px;
+    /* border: 6px solid black; */
+    border-top: 6px solid black;
+    border-bottom: 10px solid red;
+    border-right: 15px solid yellow;
+    border-left: 20px solid green; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 20px;
+}
+
+.para3{
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* center top top center top top bottom right botom left center right , 120px 50px etc etc */
+
+}

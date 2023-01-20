@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Unbounded', cursive;
+    
+}
+/* backgroud img opcity possiton fix */
+header::before{
+    content: "";
+    background: url(tut33road.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .3;
+}
+.navigation{
+    font-size: 18px;
+    display: flex;
+}
+
+li{
+    padding: 10px 15px;
+    list-style: none;
+}
+
+section{
+    /* border: 2px solid blue; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* direction default row te thake */
+    padding: 10px;
+    margin: 2px 60px;
+    align-items: center; 
+    /* right left center kore */
+    justify-content: center;
+    /*top bottom center kore*/
+    text-align: center;
+
+}
+ section h3{
+    font-size: 3rem;
+ }

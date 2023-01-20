@@ -1,0 +1,21 @@
+:root{
+    --box-color: yellow;
+}
+
+.box{
+
+    /* --box-color: pink; */
+
+    width: 200px;
+    height: 200px;
+    /* background-color: blue; */
+
+    background-color: var(--box-color);
+    margin: 2px 9px;
+    border: 2px solid red;
+    box-shadow: 3px 3px var(--box-color);
+
+}
+.container{
+    display: flex;
+}

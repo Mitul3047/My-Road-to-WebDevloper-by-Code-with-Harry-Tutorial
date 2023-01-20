@@ -1,0 +1,51 @@
+.container {
+    background-color: greenyellow;
+}
+
+.box {
+    background-color: green;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    animation-name: mitul2 ;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    /* animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out; */
+    /* animation-delay: 3s; */
+    /* animation-direction: reverse; */
+}
+
+
+@keyframes mitul2 {
+    0%{
+top: 0px;
+left: 0px;
+    }
+    25%{
+top: 250px;
+left:  0px;
+    }
+    75%
+    {
+        top: 250px;
+        left: 250px;
+    }
+    100%
+    {
+        top: 0px;
+        left: 250px;
+    }
+    
+}
+
+@keyframes mitul {
+    from {
+        width: 100px;
+    }
+
+    to {
+        width: 700px;
+    }
+
+}

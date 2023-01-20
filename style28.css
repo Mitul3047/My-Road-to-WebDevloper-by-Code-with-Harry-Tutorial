@@ -1,0 +1,46 @@
+.container{
+    height: 544px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    /*flex-wrap: wrap/*;/* resposive*/
+    /* flex-flow: column-reverse wrap; */
+    /*justify-content: center;
+    justify-content: space-between;*//* sudho box bybox gap thale*/
+    /*justify-content: space-evenly;*//*starting theke suru kore box by bix gap thaek*/
+    /*align-items: center;*/ /*vertacali center kore dibe*/
+    /* align-items: flex-end;
+    align-items: flex-start; */
+    /* align-items: stretch; */
+}
+
+.item{
+    background-color: tomato;
+    border: 2px solid rgb(61, 47, 255);
+    margin: 10px;
+    padding: 6px;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+/* properties for flex */
+
+/* flex-direction = row/colom/ colom reves */
+/* felx flow= direction + wrap duita e ek sthe likhan jya 
+ */
+
+ #item1{
+    order: 2;
+    /* jar oder joto besi se toto ses a hobe */
+ }
+#item-2{
+ /* flex-grow: 40; */
+ /* jar value jot se toto space nibe large skin a  */
+ /* flex-shrink: 3; */
+ /* jar joto besi toto choto hobe  */
+}
+#item-3{
+
+ }

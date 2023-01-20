@@ -1,0 +1,14 @@
+h3{
+    color: rgb(219, 63, 24);
+    background-color: rgb(85, 139, 128);
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.paragraph{
+    color: rgb(65, 18, 18);
+    background-color: seagreen;
+}
+footer,span {
+    background-color: rgb(172, 33, 114);
+}
